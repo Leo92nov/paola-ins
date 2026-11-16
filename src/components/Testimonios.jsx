@@ -105,6 +105,12 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
+      <div className="text-center my-4 md:my-8">
+  <h2 className="font-display text-5xl text-[#3b302a] md:text-6xl">
+    ¿Qué dicen de nosotros?
+  </h2>
+  
+</div>
       <div className="w-[90%] xl:w-[85%] mx-auto">
         <div className="relative overflow-hidden py-12">
           {/* Track */}
